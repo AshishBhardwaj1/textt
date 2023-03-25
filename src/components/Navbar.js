@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <nav>
 
-<ul>
+<ul >
   <li>home</li>
   <li>about</li>
   <li>section</li>
