@@ -19,11 +19,11 @@ backgroundColor : 'blue'
        // console.log("on change");
         setText(event.target.value);
     }
-    const [text ,setText] = useState('enter text here');
+    const [text ,setText] = useState('');
     return(
         <>
       <div className="container" style ={mystyle}> 
-    <textarea name="" id="mybox" onChange = {handleonChange} value ={text}cols="30" rows="10"> t</textarea>
+    <textarea name="" placeholder ="enter text here" id="mybox" onChange = {handleonChange} value ={text}cols="30" rows="10"> t</textarea>
      <button className="btn" onClick= {handleupclick}>convert to uppercase</button>
      <button className="btn" onClick= {handlelowclick}>convert to lowercase</button>
       </div>

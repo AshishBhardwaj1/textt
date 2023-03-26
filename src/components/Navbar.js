@@ -5,10 +5,10 @@ export default function Navbar() {
   return (
     <nav>
 
-<ul >
-  <li>home</li>
-  <li>about</li>
-  <li>section</li>
+<ul style={{listStyle:"none" ,display:"flex", padding:"10px"}}>
+  <li><a href="About">about</a></li>
+  <li><a href="TextForm">Textform</a></li>
+  <li><a href="Contacts">Contacts</a></li>
   <input type ="search" />
 </ul>
 </nav>
