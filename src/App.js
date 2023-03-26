@@ -13,19 +13,12 @@ function App() {
  <BrowserRouter>
      <Navbar/>
          <Routes>
-
-             <Route path ="/" element = {<About/>}> 
-             <Route path ="/TextForm" element = {<TextForm/>}/>
-             <Route path ="/Contacts" element = {<Contacts/>}/>
-             <Route path ="*" element = {<NoPage/>}/>
-
-             </Route>
+             <Route path ="/" element = {<About />} /> 
+             <Route path ="/textform" element = {<TextForm />}/>
+             <Route path ="/contacts" element = {<Contacts />}/>
+             <Route path ="*" element = {<NoPage />}/>
           </Routes>
-
   </BrowserRouter>
-
-
-
   );
 }
 
